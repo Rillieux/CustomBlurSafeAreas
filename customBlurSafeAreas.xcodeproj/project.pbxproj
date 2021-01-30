@@ -11,6 +11,14 @@
 		F41D1FBE25C5F00300EA1E6A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41D1FBD25C5F00300EA1E6A /* ContentView.swift */; };
 		F41D1FC025C5F00400EA1E6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F41D1FBF25C5F00400EA1E6A /* Assets.xcassets */; };
 		F41D1FC325C5F00400EA1E6A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F41D1FC225C5F00400EA1E6A /* Preview Assets.xcassets */; };
+		F41D1FCC25C5F01D00EA1E6A /* SafeEdgesBlurContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41D1FCB25C5F01D00EA1E6A /* SafeEdgesBlurContainer.swift */; };
+		F41D1FCF25C5F09C00EA1E6A /* Blur.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41D1FCE25C5F09C00EA1E6A /* Blur.swift */; };
+		F41D1FD325C5F10300EA1E6A /* ChildSizeReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41D1FD225C5F10300EA1E6A /* ChildSizeReader.swift */; };
+		F41D1FD725C5F25D00EA1E6A /* SegmentedPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41D1FD625C5F25D00EA1E6A /* SegmentedPicker.swift */; };
+		F41D1FD825C5F25D00EA1E6A /* SegmentedPickerFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41D1FD525C5F25D00EA1E6A /* SegmentedPickerFrame.swift */; };
+		F41D1FE125C5F4FC00EA1E6A /* Binding+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41D1FE025C5F4FC00EA1E6A /* Binding+Extensions.swift */; };
+		F41D1FE725C5F85400EA1E6A /* Footer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41D1FE625C5F85400EA1E6A /* Footer.swift */; };
+		F41D1FEA25C5F9A800EA1E6A /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41D1FE925C5F9A800EA1E6A /* GridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +28,14 @@
 		F41D1FBF25C5F00400EA1E6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F41D1FC225C5F00400EA1E6A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F41D1FC425C5F00400EA1E6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F41D1FCB25C5F01D00EA1E6A /* SafeEdgesBlurContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeEdgesBlurContainer.swift; sourceTree = "<group>"; };
+		F41D1FCE25C5F09C00EA1E6A /* Blur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blur.swift; sourceTree = "<group>"; };
+		F41D1FD225C5F10300EA1E6A /* ChildSizeReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildSizeReader.swift; sourceTree = "<group>"; };
+		F41D1FD525C5F25D00EA1E6A /* SegmentedPickerFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedPickerFrame.swift; sourceTree = "<group>"; };
+		F41D1FD625C5F25D00EA1E6A /* SegmentedPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedPicker.swift; sourceTree = "<group>"; };
+		F41D1FE025C5F4FC00EA1E6A /* Binding+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding+Extensions.swift"; sourceTree = "<group>"; };
+		F41D1FE625C5F85400EA1E6A /* Footer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Footer.swift; sourceTree = "<group>"; };
+		F41D1FE925C5F9A800EA1E6A /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,14 @@
 			children = (
 				F41D1FBB25C5F00300EA1E6A /* customBlurSafeAreasApp.swift */,
 				F41D1FBD25C5F00300EA1E6A /* ContentView.swift */,
+				F41D1FE925C5F9A800EA1E6A /* GridView.swift */,
+				F41D1FD625C5F25D00EA1E6A /* SegmentedPicker.swift */,
+				F41D1FD525C5F25D00EA1E6A /* SegmentedPickerFrame.swift */,
+				F41D1FE625C5F85400EA1E6A /* Footer.swift */,
+				F41D1FCB25C5F01D00EA1E6A /* SafeEdgesBlurContainer.swift */,
+				F41D1FCE25C5F09C00EA1E6A /* Blur.swift */,
+				F41D1FE025C5F4FC00EA1E6A /* Binding+Extensions.swift */,
+				F41D1FD225C5F10300EA1E6A /* ChildSizeReader.swift */,
 				F41D1FBF25C5F00400EA1E6A /* Assets.xcassets */,
 				F41D1FC425C5F00400EA1E6A /* Info.plist */,
 				F41D1FC125C5F00400EA1E6A /* Preview Content */,
@@ -139,7 +163,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				F41D1FBE25C5F00300EA1E6A /* ContentView.swift in Sources */,
+				F41D1FD725C5F25D00EA1E6A /* SegmentedPicker.swift in Sources */,
+				F41D1FCF25C5F09C00EA1E6A /* Blur.swift in Sources */,
+				F41D1FEA25C5F9A800EA1E6A /* GridView.swift in Sources */,
+				F41D1FE125C5F4FC00EA1E6A /* Binding+Extensions.swift in Sources */,
+				F41D1FE725C5F85400EA1E6A /* Footer.swift in Sources */,
+				F41D1FD825C5F25D00EA1E6A /* SegmentedPickerFrame.swift in Sources */,
+				F41D1FD325C5F10300EA1E6A /* ChildSizeReader.swift in Sources */,
 				F41D1FBC25C5F00300EA1E6A /* customBlurSafeAreasApp.swift in Sources */,
+				F41D1FCC25C5F01D00EA1E6A /* SafeEdgesBlurContainer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
