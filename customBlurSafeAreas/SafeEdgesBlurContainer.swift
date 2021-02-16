@@ -48,7 +48,7 @@ struct SafeEdgesBlurContainer<V: View>: View {
 struct SafeEdgesBlurContainer_Previews: PreviewProvider {
     
     static var previews: some View {
-        SafeEdgesBlurContainer(containedView: SegmentedPickerFrame().padding(/*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/), isPlacedAtTop: true)
+        SafeEdgesBlurContainer(containedView: Header().padding(/*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/), isPlacedAtTop: true)
     }
 }
 

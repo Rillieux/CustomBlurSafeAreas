@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F419069E25DBE54B00D4CD75 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = F419069D25DBE54B00D4CD75 /* Header.swift */; };
 		F41D1FBC25C5F00300EA1E6A /* customBlurSafeAreasApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41D1FBB25C5F00300EA1E6A /* customBlurSafeAreasApp.swift */; };
 		F41D1FBE25C5F00300EA1E6A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41D1FBD25C5F00300EA1E6A /* ContentView.swift */; };
 		F41D1FC025C5F00400EA1E6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F41D1FBF25C5F00400EA1E6A /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F419069D25DBE54B00D4CD75 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
 		F41D1FB825C5F00300EA1E6A /* customBlurSafeAreas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = customBlurSafeAreas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F41D1FBB25C5F00300EA1E6A /* customBlurSafeAreasApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customBlurSafeAreasApp.swift; sourceTree = "<group>"; };
 		F41D1FBD25C5F00300EA1E6A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				F41D1FBD25C5F00300EA1E6A /* ContentView.swift */,
 				F41D1FE925C5F9A800EA1E6A /* GridView.swift */,
 				F41D1FD625C5F25D00EA1E6A /* SegmentedPicker.swift */,
+				F419069D25DBE54B00D4CD75 /* Header.swift */,
 				F41D1FD525C5F25D00EA1E6A /* SegmentedPickerFrame.swift */,
 				F41D1FE625C5F85400EA1E6A /* Footer.swift */,
 				F41D1FCB25C5F01D00EA1E6A /* SafeEdgesBlurContainer.swift */,
@@ -167,6 +170,7 @@
 				F41D1FCF25C5F09C00EA1E6A /* Blur.swift in Sources */,
 				F41D1FEA25C5F9A800EA1E6A /* GridView.swift in Sources */,
 				F41D1FE125C5F4FC00EA1E6A /* Binding+Extensions.swift in Sources */,
+				F419069E25DBE54B00D4CD75 /* Header.swift in Sources */,
 				F41D1FE725C5F85400EA1E6A /* Footer.swift in Sources */,
 				F41D1FD825C5F25D00EA1E6A /* SegmentedPickerFrame.swift in Sources */,
 				F41D1FD325C5F10300EA1E6A /* ChildSizeReader.swift in Sources */,
