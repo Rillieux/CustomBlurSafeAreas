@@ -15,10 +15,10 @@ struct GridView: View {
     var body: some View {
         ScrollView {
             Spacer().frame(height: headerHeight)
-            LazyVGrid(columns: [GridItem(.adaptive(minimum: 75), spacing: 1)], spacing: 1) {
+            LazyVGrid(columns: [GridItem(.adaptive(minimum: 45), spacing: 1)], spacing: 1) {
                 ForEach(data, id: \.self) { item in
                     RoundedRectangle(cornerRadius: 6.0, style: .continuous)
-                        .frame(height: 80)
+                        .frame(height: 50)
                         .foregroundColor(Color(colors.randomElement() ?? .blue))
                 }
                 Spacer().frame(height: footerHeight)
