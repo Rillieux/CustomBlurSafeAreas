@@ -14,6 +14,14 @@ struct Header: View {
     @State private var selectedSelection = 1
     var selections: [Selection] = [.first, .second, .third, .fourth]
     var body: some View {
+        
+        ///Added
+        Picker(selection: $selectedSelection, label: Text("Selection")) {
+    // ..
+}
+.onChange(of: favoriteColor) { tag in print("Selection tag: \(tag)") }
+        ////End added
+        
         Picker(selection: $selectedSelection.onChange(changeSelection), label: Text("Selection")) {
             ForEach(0..<selections.count) { index in
                 Text(self.selections[index].fullName)
