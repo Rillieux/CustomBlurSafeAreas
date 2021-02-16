@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+//A sample "header View" employing a SegmentedPicker.
+
 struct Header: View {
 
     @State private var selectedSelection = 1

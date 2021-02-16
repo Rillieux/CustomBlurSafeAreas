@@ -7,6 +7,9 @@
 
 import SwiftUI
 
+
+///In this example, this view is the main view which should "show through" the blur views.
+
 struct GridView: View {
     let data = (1...200).map { "Item \($0)" }
     let colors: [UIColor] = [.red, .yellow, .orange]

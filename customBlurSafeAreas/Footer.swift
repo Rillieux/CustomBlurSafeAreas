@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+//A sample "Footer" view showing a custom view.
+
 struct Footer: View {
     var body: some View {
         
