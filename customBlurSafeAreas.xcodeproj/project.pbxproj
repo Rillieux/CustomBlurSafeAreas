@@ -47,6 +47,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F41906A225DBE8F900D4CD75 /* RequiredFiles */ = {
+			isa = PBXGroup;
+			children = (
+				F41D1FCB25C5F01D00EA1E6A /* SafeEdgesBlurContainer.swift */,
+				F41D1FCE25C5F09C00EA1E6A /* Blur.swift */,
+				F41D1FE025C5F4FC00EA1E6A /* Binding+Extensions.swift */,
+				F41D1FD225C5F10300EA1E6A /* ChildSizeReader.swift */,
+			);
+			path = RequiredFiles;
+			sourceTree = "<group>";
+		};
 		F41D1FAF25C5F00300EA1E6A = {
 			isa = PBXGroup;
 			children = (
@@ -71,10 +82,7 @@
 				F41D1FE925C5F9A800EA1E6A /* GridView.swift */,
 				F419069D25DBE54B00D4CD75 /* Header.swift */,
 				F41D1FE625C5F85400EA1E6A /* Footer.swift */,
-				F41D1FCB25C5F01D00EA1E6A /* SafeEdgesBlurContainer.swift */,
-				F41D1FCE25C5F09C00EA1E6A /* Blur.swift */,
-				F41D1FE025C5F4FC00EA1E6A /* Binding+Extensions.swift */,
-				F41D1FD225C5F10300EA1E6A /* ChildSizeReader.swift */,
+				F41906A225DBE8F900D4CD75 /* RequiredFiles */,
 				F41D1FBF25C5F00400EA1E6A /* Assets.xcassets */,
 				F41D1FC425C5F00400EA1E6A /* Info.plist */,
 				F41D1FC125C5F00400EA1E6A /* Preview Content */,
