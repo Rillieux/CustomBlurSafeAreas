@@ -31,12 +31,6 @@ struct Header: View {
         .padding(.top, 5)
         .padding(.bottom, 12)
     }
-    
-    func changeSelection(_ tag: Int) {
-        withAnimation{
-            selectedSelection = tag
-        }
-    }
 }
 
 extension Header {
