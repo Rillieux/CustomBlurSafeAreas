@@ -15,7 +15,6 @@
 		F41D1FCC25C5F01D00EA1E6A /* SafeEdgesBlurContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41D1FCB25C5F01D00EA1E6A /* SafeEdgesBlurContainer.swift */; };
 		F41D1FCF25C5F09C00EA1E6A /* Blur.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41D1FCE25C5F09C00EA1E6A /* Blur.swift */; };
 		F41D1FD325C5F10300EA1E6A /* ChildSizeReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41D1FD225C5F10300EA1E6A /* ChildSizeReader.swift */; };
-		F41D1FE125C5F4FC00EA1E6A /* Binding+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41D1FE025C5F4FC00EA1E6A /* Binding+Extensions.swift */; };
 		F41D1FE725C5F85400EA1E6A /* Footer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41D1FE625C5F85400EA1E6A /* Footer.swift */; };
 		F41D1FEA25C5F9A800EA1E6A /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41D1FE925C5F9A800EA1E6A /* GridView.swift */; };
 /* End PBXBuildFile section */
@@ -31,7 +30,6 @@
 		F41D1FCB25C5F01D00EA1E6A /* SafeEdgesBlurContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeEdgesBlurContainer.swift; sourceTree = "<group>"; };
 		F41D1FCE25C5F09C00EA1E6A /* Blur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blur.swift; sourceTree = "<group>"; };
 		F41D1FD225C5F10300EA1E6A /* ChildSizeReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildSizeReader.swift; sourceTree = "<group>"; };
-		F41D1FE025C5F4FC00EA1E6A /* Binding+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding+Extensions.swift"; sourceTree = "<group>"; };
 		F41D1FE625C5F85400EA1E6A /* Footer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Footer.swift; sourceTree = "<group>"; };
 		F41D1FE925C5F9A800EA1E6A /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +50,6 @@
 			children = (
 				F41D1FCB25C5F01D00EA1E6A /* SafeEdgesBlurContainer.swift */,
 				F41D1FCE25C5F09C00EA1E6A /* Blur.swift */,
-				F41D1FE025C5F4FC00EA1E6A /* Binding+Extensions.swift */,
 				F41D1FD225C5F10300EA1E6A /* ChildSizeReader.swift */,
 			);
 			path = RequiredFiles;
@@ -170,7 +167,6 @@
 				F41D1FBE25C5F00300EA1E6A /* ContentView.swift in Sources */,
 				F41D1FCF25C5F09C00EA1E6A /* Blur.swift in Sources */,
 				F41D1FEA25C5F9A800EA1E6A /* GridView.swift in Sources */,
-				F41D1FE125C5F4FC00EA1E6A /* Binding+Extensions.swift in Sources */,
 				F419069E25DBE54B00D4CD75 /* Header.swift in Sources */,
 				F41D1FE725C5F85400EA1E6A /* Footer.swift in Sources */,
 				F41D1FD325C5F10300EA1E6A /* ChildSizeReader.swift in Sources */,
